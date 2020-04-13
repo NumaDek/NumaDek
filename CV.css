@@ -5,9 +5,14 @@
 	height: 100%;
 }
 
-h4, h1
+h4, h1, h2
 {
 	color: black;
+}
+
+h2 
+{
+	font-size: 250%;
 }
 
 p
