@@ -2,6 +2,7 @@
 {
 	background-color: #BDBDBD;
 	color: #616161;
+	height: 100%;
 }
 
 h4, h1
@@ -20,57 +21,61 @@ ul
 	margin-top: 15px;
 }
 
-.Left-Banner
+header
+{
+	min-height: 270px;
+}
+
+i
+{
+	color: #FFC400;
+}
+
+address
+{
+	font-weight: bold;
+}
+
+footer
+{
+	position: absolute; 
+    left: 0 ;
+	right: 0; 
+	bottom: 0; 
+}
+
+footer i
+{
+	color: #424242;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.left-banner
 {
 	background-color: #FFC400;
 }
 
-.Main-Content
-{
-	background-color: #FFFFFF;
-}
-
-.Name-Post
-{
-	min-height: 270px;
-}
-
-.Picture
-{
-	border-radius: 100%;
-	border: 3px solid #F9A825;
-}
-
-.Topic
-{
-	background-color: #424242;
-}
-
-.Rubric
-{
-	text-align: center;
-	color: #FFC400;
-}
-
-.Bottom-line
+.ornement
 {
 	border-bottom: 2px solid #FFC400;
 }
 
-.Picture-space 
+.infos
 {
-	min-height: 270px;
+	width: 100%;
 }
 
-.contact-list
+.tete-infos
 {
-	font-size: 80%;
-	list-style: none;
-}
-
-.contact-list li
-{
-	margin-top: 10px;
+	background-color: #424242;
+	color: #FFC400;
+	text-align: center;
+	padding: 3px;
+	margin: auto;
+	width:100%;
 }
 
 .contact-bottom
@@ -80,31 +85,59 @@ ul
 	margin-top: 15px;
 }
 
-#footer
+#photo-box
 {
-	min-height: 320px;
+	min-height: 270px;
 }
 
-#ornement
+#photo
 {
-	border-bottom: 2px solid #FFC400;
+	width: 60%;
+	border-radius: 100%;
+	border: 3px solid #F9A825;
 }
 
-#activity
+#name-box
 {
-	min-width: 50px;
-	margin-top: 30px;
-	color: #424242;
+	margin-left: 35px;
+	min-height: 270px;
 }
 
-#Breathe
+#name
 {
-	margin-top: 20px;
-	margin-bottom: 20px;
+	background-color: white;
+	min-height: 250px;
 }
 
-#test
+#surname
 {
-	height: 100%;
-	background-color: black;
+	color: #FFC400;
+}
+
+#propos
+{
+	padding: 20px;
+}
+
+#rubriques
+{
+	background-color: white;
+}
+
+#contact-list
+{
+	font-size: 80%;
+	list-style: none;
+	margin-top: 10px;
+}
+
+#contact-list li
+{
+	margin-top: 10px;
+}
+
+#hobby
+{
+	display: table;
+	margin:auto;
 }
