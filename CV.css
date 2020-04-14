@@ -146,3 +146,8 @@ footer i
 	display: table;
 	margin:auto;
 }
+
+#propos-box
+{
+	min-height: 300px;
+}
