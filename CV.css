@@ -1,8 +1,15 @@
-﻿body
+﻿
+
+body
 {
 	background-color: #BDBDBD;
 	color: #616161;
 	height: 100%;
+}
+
+.container
+{
+	background-color: #green;
 }
 
 h4, h1, h2
@@ -150,4 +157,10 @@ footer i
 #propos-box
 {
 	min-height: 300px;
+}
+
+.container-fluid
+{
+	max-width: 960px;
+	padding: 0px;
 }
