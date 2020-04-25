@@ -7,11 +7,6 @@ body
 	height: 100%;
 }
 
-.container
-{
-	background-color: #green;
-}
-
 h4, h1, h2
 {
 	color: black;
@@ -157,9 +152,4 @@ footer i
 #propos-box
 {
 	min-height: 300px;
-}
-
-.container-fluid
-{
-	max-width: 960px;
 }
