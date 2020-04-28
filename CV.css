@@ -1,155 +1,123 @@
-﻿
-
-body
-{
-	background-color: #BDBDBD;
-	color: #616161;
-	height: 100%;
+﻿body {
+    background-color: #BDBDBD;
+    color: #616161;
 }
 
-h4, h1, h2
-{
-	color: black;
+h1, h2, h4 {
+    color: black;
 }
 
-h2 
-{
-	font-size: 250%;
+h2 {
+    font-size: 300%;
 }
 
-p
-{
-	font-size: 80%;
-	text-align: justify;
+p {
+    text-align: justify;
+    font-size: 90%;
 }
 
-ul
-{
-	margin-top: 15px;
+i {
+    color: #FFC400;
 }
 
-header
-{
-	min-height: 270px;
+footer {
+    box-shadow: 0px 10px 10px #616161;
 }
 
-i
-{
-	color: #FFC400;
+a, a:hover {
+    color: #616161;
 }
 
-address
-{
-	font-weight: bold;
+footer i {
+    color: #424242;
+    padding: 20px 3px 20px 3px;
 }
 
-footer
-{
-	position: absolute; 
-    left: 0 ;
-	right: 0; 
-	bottom: 0; 
+.left-banner {
+    background-color: #FFC400;
 }
 
-footer i
-{
-	color: #424242;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 3px;
-	padding-right: 3px;
+.ornement {
+    border-bottom: 2px solid #FFC400;
 }
 
-.left-banner
-{
-	background-color: #FFC400;
+.infos {
+    width: 100%;
 }
 
-.ornement
-{
-	border-bottom: 2px solid #FFC400;
+.tete-infos {
+    background-color: #424242;
+    color: #FFC400;
+    padding: 3px 0px 3px 0px;
+    text-align: center;
 }
 
-.infos
-{
-	width: 100%;
+.contact-bottom {
+    font-size: 90%;
+    list-style: none;
+    margin-top: 15px;
 }
 
-.tete-infos
-{
-	background-color: #424242;
-	color: #FFC400;
-	text-align: center;
-	padding: 3px;
-	margin: auto;
-	width:100%;
+.rubriques {
+    background-color: white;
 }
 
-.contact-bottom
-{
-	font-size: 90%;
-	list-style: none;
-	margin-top: 15px;
+.jobs {
+    display: inline;
 }
 
-#photo-box
-{
-	min-height: 270px;
+#experience li {
+    margin-bottom: 5px;
 }
 
-#photo
-{
-	width: 60%;
-	border-radius: 100%;
-	border: 3px solid #F9A825;
+#photo-box {
+    min-height: 270px;
 }
 
-#name-box
-{
-	margin-left: 35px;
-	min-height: 270px;
+#photo {
+    border-radius: 100%;
+    border: 3px solid #F9A825;
+    width: 60%;
 }
 
-#name
-{
-	background-color: white;
-	min-height: 250px;
+#name-box {
+    min-height: 270px;
 }
 
-#surname
-{
-	color: #FFC400;
+#surname {
+    color: #FFC400;
 }
 
-#propos
-{
-	padding: 20px;
+#propos {
+    padding: 25px;
 }
 
-#rubriques
-{
-	background-color: white;
+#contact-list {
+    font-size: 80%;
+    list-style: none;
+    margin-top: 10px;
 }
 
-#contact-list
-{
-	font-size: 80%;
-	list-style: none;
-	margin-top: 10px;
+#contact-list li {
+    margin-top: 10px;
 }
 
-#contact-list li
-{
-	margin-top: 10px;
+#hobby {
+    display: table;
+    margin: auto;
 }
 
-#hobby
-{
-	display: table;
-	margin:auto;
+@media screen and (max-width: 992px) {
+    body {
+        font-size: 150%;
+    }
+
+    h5, h6 {
+        font-size: 100%;
+    }
+
+    #photo {
+        width: 30%;
+    }
 }
 
-#propos-box
-{
-	min-height: 300px;
-}
