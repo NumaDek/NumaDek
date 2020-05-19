@@ -3,10 +3,10 @@
 <html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Numa Dekeyser</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="CV.css">
-    <script src="https://kit.fontawesome.com/ae6bfe96d4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="container-fluid">
     <header class="row">
@@ -26,8 +26,8 @@
     </header>
     <div class="row">
         <aside class="col-lg-3 order-2 order-lg-1 left-banner">
-            <div class="row">
-                <article class="infos">
+            <div class="row" id="banner">
+                <article class="infos contact">
                     <h4 class="tete-infos">CONTACT</h4>
                     <address>
                         <ul id="contact-list">
@@ -39,23 +39,34 @@
                         </ul>
                     </address>
                 </article>
-                <article class="infos">
+                <article class="infos" id="propos-box">
                     <h4 class="tete-infos">À PROPOS DE MOI</h4>
-                    <p id="propos">Toujours un ordinateur entre les mains, je suis passionné par l'informatique. Développeur web junior, je veux monter en compétence pour être capable de porter des projets et des solutions utiles et intérresssantes à réaliser.</p>
+                    <p id="propos">Toujours un ordinateur entre les mains, je suis passionné par l'informatique. Développeur web junior, je veux monter en compétence pour être capable de porter des projets et des solutions utiles et intérressantes à réaliser.</p>
                 </article>
+                <footer class="infos align-self-end">
+                    <h4 class="tete-infos">LOISIRS</h4>
+                    <div id="hobby">
+                        <i class="fas fa-swimmer fa-3x"></i>
+                        <i class="fas fa-bicycle fa-3x"></i>
+                        <i class="fas fa-table-tennis fa-3x"></i>
+                    </div>
+                </footer>
             </div>
         </aside>
         <div class="col-lg-9 order-1 order-lg-2 rubriques">
             <div class="row justify-content-center">
                 <article class="col-11">
-                    <h4 class="ornement"><i class="fas fa-graduation-cap fa-1x"></i> FORMATION</h4>
-                    <ul>
+                        <h4 class="ornement"><i class="fas fa-graduation-cap fa-1x"></i> FORMATION</h4>
+                </article>
+                <article class="col-11">
+                    <ul id="formation">
                         <li class="row">
                             <aside class="col-lg-3">
-                                <span>2020 - (en cours)</span><br>
-                                <span>Bordeaux</span>
+                                <i class="far fa-dot-circle fa-1x"></i>
+                                <span class="term"> 2020 - (en cours)</span><br />
+                                <span class="city">Bordeaux</span>
                             </aside>
-                            <section class="col-lg-9">
+                            <section class="col-lg-8">
                                 <h5>OPENCLASSROOM</h5>
                                 <h6>Développeur web junior</h6>
                                 <p>Formation de développement de site internet front/back-end.</p>
@@ -63,10 +74,11 @@
                         </li>
                         <li class="row">
                             <aside class="col-lg-3">
-                                <span>2017 - 2019</span><br>
-                                <span>Bordeaux</span>
+                                <i class="fas fa-circle fa-1x"></i>
+                                <span class="term">2017 - 2019</span><br />
+                                <span class="city">Bordeaux</span>
                             </aside>
-                            <section class="col-lg-9">
+                            <section class="col-lg-8">
                                 <h5>LICENCE INFORMATIQUE</h5>
                                 <h6>Développeur informatique</h6>
                                 <p>Formation théorique aux langages de programmation, à l'algorithmique et aux bases de données relationnelles.</p>
@@ -74,10 +86,11 @@
                         </li>
                         <li class="row">
                             <aside class="col-lg-3">
-                                <span>2012 - 2015</span><br>
-                                <span>Bordeaux</span>
+                                <i class="fas fa-circle fa-1x"></i>
+                                <span class="term">2012 - 2015</span><br />
+                                <span class="city">Bordeaux</span>
                             </aside>
-                            <section class="col-lg-9">
+                            <section class="col-lg-8">
                                 <h5>EPITECH</h5>
                                 <h6>Développeur logiciel</h6>
                                 <p>Formation de programmation logiciel au travers de la réalisation de projets divers.</p>
@@ -87,75 +100,85 @@
                 </article>
                 <article class="col-11">
                     <h4 class="ornement"><i class="fas fa-suitcase fa-1x"></i> EXPÉRIENCES PROFESSIONNELLES</h4>
+                </article>
+                <article class="col-11">
                     <ul id="experience">
                         <li class="row">
-                            <aside class="col-3">
-                                <span>2020</span><br>
+                            <aside class="col-lg-3">
+                                <i class="fas fa-circle fa-1x"></i>
+                                <span class="term">2020</span>
                             </aside>
-                            <section class="col-9">
+                            <section class="col-lg-9">
                                 <h6 class="jobs">Poseur de structure</h6>
                                 <p class="jobs"> - Adret France.</p>
                             </section>
                         </li>
                         <li class="row">
-                            <aside class="col-3">
-                                <span>2019</span><br>
+                            <aside class="col-lg-3">
+                                <i class="fas fa-circle fa-1x"></i>
+                                <span class="term">2019</span>
                             </aside>
-                            <section class="col-9">
+                            <section class="col-lg-9">
                                 <h6 class="jobs">Tireur de fibre optique</h6>
                                 <p class="jobs"> - BST fibre.</p>
                             </section>
                         </li>
                         <li class="row">
-                            <aside class="col-3">
-                                <span>2017</span><br>
+                            <aside class="col-lg-3">
+                                <i class="fas fa-circle fa-1x"></i>
+                                <span class="term">2017</span>
                             </aside>
-                            <section class="col-9">
+                            <section class="col-lg-9">
                                 <h6 class="jobs">Monteur d'exposition</h6>
                                 <p class="jobs"> - Leroy Merlin.</p>
                             </section>
                         </li>
                         <li class="row">
-                            <aside class="col-3">
-                                <span>2017</span><br>
+                            <aside class="col-lg-3">
+                                <i class="fas fa-circle fa-1x"></i>
+                                <span class="term">2017</span>
                             </aside>
-                            <section class="col-9">
+                            <section class="col-lg-9">
                                 <h6 class="jobs">Enquêteur</h6>
                                 <p class="jobs"> - CPEV.</p>
                             </section>
                         </li>
                         <li class="row">
-                            <aside class="col-3">
-                                <span>2016</span><br>
+                            <aside class="col-lg-3">
+                                <i class="fas fa-circle fa-1x"></i>
+                                <span class="term">2016</span>
                             </aside>
-                            <section class="col-9">
+                            <section class="col-lg-9">
                                 <h6 class="jobs">Agent de quais</h6>
                                 <p class="jobs"> - Heppner.</p>
                             </section>
                         </li>
                         <li class="row">
-                            <aside class="col-3">
-                                <span>2016</span><br>
+                            <aside class="col-lg-3">
+                                <i class="fas fa-circle fa-1x"></i>
+                                <span class="term">2016</span>
                             </aside>
-                            <section class="col-9">
+                            <section class="col-lg-9">
                                 <h6 class="jobs">Service-civique</h6>
                                 <p class="jobs"> - Unis-cité.</p>
                             </section>
                         </li>
                         <li class="row">
-                            <aside class="col-3">
-                                <span>2015</span><br>
+                            <aside class="col-lg-3">
+                                <i class="fas fa-circle fa-1x"></i>
+                                <span class="term">2015</span>
                             </aside>
-                            <section class="col-9">
+                            <section class="col-lg-9">
                                 <h6 class="jobs">Inventoriste</h6>
                                 <p class="jobs"> - Point P.</p>
                             </section>
                         </li>
                         <li class="row">
-                            <aside class="col-3">
-                                <span>2012</span><br>
+                            <aside class="col-lg-3">
+                                <i class="fas fa-circle fa-1x"></i>
+                                <span class="term">2012</span>
                             </aside>
-                            <section class="col-9">
+                            <section class="col-lg-9">
                                 <h6 class="jobs">Manoeuvre</h6>
                                 <p class="jobs"> - Art&bois.</p>
                             </section>
@@ -164,7 +187,9 @@
                 </article>
                 <article class="col-11">
                     <h4 class="ornement"><i class="fas fa-pencil-alt fa-1x"></i> RECOMMANDATIONS</h4>
-                    <div class="row justify-content-center">
+                </article>
+                <article class="col-11">
+                    <div class="row">
                         <div class="col-lg-6">
                             <ul class="contact-bottom">
                                 <li><b>MAXIME KIEMAN</b></li>
@@ -186,19 +211,6 @@
             </div>
         </div>
     </div>
-    <footer class="row rubriques">
-        <aside class="col-lg-3 order-2 order-lg-1 left-banner">
-            <div class="row">
-                <article class="infos">
-                    <h4 class="tete-infos">LOISIRS</h4>
-                    <div id="hobby">
-                        <i class="fas fa-swimmer fa-3x"></i>
-                        <i class="fas fa-bicycle fa-3x"></i>
-                        <i class="fas fa-table-tennis fa-3x"></i>
-                    </div>
-                </article>
-            </div>
-        </aside>
-    </footer>
+    <script src="https://kit.fontawesome.com/ae6bfe96d4.js" crossorigin="anonymous"></script>
 </body>
 </html>

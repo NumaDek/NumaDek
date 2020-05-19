@@ -1,6 +1,7 @@
 ﻿body {
     background-color: #BDBDBD;
     color: #616161;
+    box-shadow: 0px 10px 10px #616161;
 }
 
 h1, h2, h4 {
@@ -13,15 +14,10 @@ h2 {
 
 p {
     text-align: justify;
-
 }
 
 i {
     color: #FFC400;
-}
-
-footer {
-    box-shadow: 0px 10px 10px #616161;
 }
 
 a, a:hover {
@@ -30,7 +26,12 @@ a, a:hover {
 
 footer i {
     color: #424242;
-    padding: 20px 3px 20px 3px;
+    margin: 20px 10px 20px 10px;
+    padding-top: 3px;
+    border-radius: 100%;
+    border: 3px solid #424242;
+    min-width: 65px;
+    min-height: 65px;
 }
 
 .left-banner {
@@ -39,6 +40,7 @@ footer i {
 
 .ornement {
     border-bottom: 2px solid #FFC400;
+    min-height: 40px;
 }
 
 .infos {
@@ -56,18 +58,53 @@ footer i {
     font-size: 90%;
     list-style: none;
     margin-top: 15px;
+    margin-bottom: 60px;
+    padding: 0px;
 }
 
 .rubriques {
     background-color: white;
 }
 
+.term {
+    margin-left: 10px;
+}
+
+.city {
+    margin-left: 30px;
+}
+
 .jobs {
     display: inline;
 }
 
+#formation {
+    list-style: none;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 0;
+}
+
+#banner {
+    height: 100%;
+}
+
+#formation li {
+    margin-top: 30px;
+}
+
+#experience {
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+
+#experience li::before {
+}
+
 #experience li {
-    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 #photo-box {
@@ -89,7 +126,7 @@ footer i {
 }
 
 #propos {
-    padding: 25px;
+    padding: 25px 40px 0px 40px;
 }
 
 #contact-list {
@@ -107,6 +144,10 @@ footer i {
     margin: auto;
 }
 
+#propos-box {
+    margin-top: -100px;
+}
+
 @media screen and (max-width: 992px) {
     body {
         font-size: 150%;
@@ -118,6 +159,16 @@ footer i {
 
     #photo {
         width: 30%;
+    }
+
+    footer i {
+        padding-left: 1px;
+        width: 96px;
+        height: 96px;
+    }
+
+    #propos-box {
+        margin-top: 0px;
     }
 }
 
