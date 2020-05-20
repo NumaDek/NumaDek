@@ -26,7 +26,7 @@ a, a:hover {
 
 footer i {
     color: #424242;
-    margin: 20px 10px 20px 10px;
+    margin: 20px 7px 20px 7px;
     padding-top: 3px;
     border-radius: 100%;
     border: 3px solid #424242;
@@ -157,6 +157,10 @@ footer i {
         font-size: 100%;
     }
 
+    h2 {
+        font-size: 155%;
+    }
+
     #photo {
         width: 30%;
     }
@@ -165,6 +169,7 @@ footer i {
         padding-left: 1px;
         width: 96px;
         height: 96px;
+        margin: 20px 0px 20px 0px;
     }
 
     #propos-box {
